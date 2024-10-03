@@ -1,0 +1,425 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-section {
+  background-image: url("slide-01.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+
+
+header {
+  background-color: rgb(6, 6, 46);
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  position: static;
+}
+
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+.footer {
+  background-color: rgb(6, 6, 46);
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  z-index: 10;
+}
+
+.navbar {
+  display: flex;
+  position: sticky;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;   
+}
+
+.nav-links li {
+  display: inline-block;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.nav-links li a:hover {
+  background-color: #700606;
+}
+
+li {
+  display: inline;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+  border: 1px solid #ccc;
+}
+
+.content-boxes {
+  background-color: rgb(250, 245, 245);
+  color: black;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  gap: 100px;
+  border-radius: 20px;
+  border-color: black;
+}
+
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #cc5b15;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+
+.font {
+  font-size: 50px;
+  color: #f0f0f0;
+  text-align: start;
+}
+
+em {
+  color: #cc5b15;
+}
+
+p {
+  color: #ddd;
+}
+
+.hero {
+  inline-size: 20;
+}
+
+.font1 {
+  background-image: url("background2.jpg");
+  background-size: cover;
+  color: #f0f0f0;
+  background-position: left;
+  block-size: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: space-between;
+  gap: 500px;
+}
+
+.button-container {
+  margin-inline-start: 20px;
+}
+
+a {
+  color: #04AA6D;
+}
+
+table {
+  border-collapse: collapse;
+  inline-size: 1px solid;
+  background-color: white;
+  text-align: center;
+}
+
+th {
+  padding: 0.75rem 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 0.7rem;
+}
+
+td {
+  padding: 1rem 2rem;
+}
+
+tr {
+  background-color: white;
+}
+
+.section-heading {
+  text-align: center;
+}
+
+.button2 {
+  background-color: rgba(255, 255, 255, 0.91);
+  border: none;
+  color: rgb(27, 24, 24);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+
+.font2 {
+  background-image: url("backgroundimage3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1px;
+  align-content: stretch;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.let {
+  float: inline-start;
+}
+
+.flex-container {
+  display: flex;
+  padding: 20px;
+  border: 1px solid #ece8e8;
+  align-content: space-between;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+}
+
+#customers td,
+#customers th {
+  border: 1px solid white;
+  padding: 8px;
+}
+
+.name {
+  block-size: auto;
+  inset-block: auto;
+}
+
+span {
+  color: black;
+}
+
+.box {
+  inline-size: 30%;
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+}
+
+.new {
+  inline-size: 200px;
+  size-adjust: cover;
+  tab-size: 200px;
+}
+
+.form-container {
+  inline-size: 300px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  align-items: baseline;
+  justify-items: bottom;
+}
+
+.vertical-form {
+  display: flex;
+  flex-direction: column;
+  text-align-last: left;
+}
+
+.vertical-form label {
+  margin-block-end: 5px;
+}
+
+.vertical-form input,
+.vertical-form textarea {
+  margin-block-end: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.vertical-form button {
+  padding: 10px;
+  background-color: #ff2a00;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.vertical-form button:hover {
+  background-color: #b36b00;
+}
+
+.font3 {
+  text-align: start; 
+}
+
+.search_categories .select {
+  inline-size: 120%;
+}
+
+.search_categories .select select {
+  background: transparent;
+  line-height: 10;
+  border: 0;
+  padding: 0;
+  border-radius: 0;
+  inline-size: 120%;
+  position: relative;
+  z-index: 10;
+  font-size: 1em;
+}
+
+.let1 {
+  margin-inline-end: auto;
+  margin-inline-end: 0;
+  inline-size: 200px;
+}
+
+
+.inline-box {
+  display: inline-table;
+  display: flex;
+  background-color: rgba(247, 238, 238, 0.995);
+  flex: nowrap;
+  align-items: flex-end;
+  border-radius: 20px;
+}
+
+.inline-container {
+  inline-size: 800px;
+  align-content: center;
+  place-items: center;
+  justify-content: center;
+  margin-inline-start: 180px;
+  justify-items: space-between;
+}
+
+form-container {
+  inline-size: 100%;
+  max-inline-size: 500px;
+  margin: auto;
+}
+
+
+input, select {
+  padding: 10px;
+  margin-block-end: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  inline-size: 100%; /* Makes the dropdown the same width as the input fields */
+  box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+select {
+  appearance: none; /* Removes default styling */
+  background: white; /* Sets background color */
+}
+
+.function {
+  align-content: center;
+  
+}
+
+  
+
+ 
+
+@media only screen and (max-width:475px) {
+  .font {
+    width: 475px;;
+
+  }
+  .font3 {
+    width: 475;
+  }
+  .grid-container {
+    grid-template-columns: 1fr;
+  
+  
+    justify-items: center;
+    
+  }
+  .content-boxes {
+    margin: 10px 0;
+    align-items: center;
+    display: grid;
+    gap: 20px; 
+
+  }
+ .font1 {
+  display: flex;
+  width: 475;
+  display: inline-block;
+ } 
+ .flex-container {
+  display:flex;
+  width: 475;
+  height: 475;
+ }
+ 
+
+
+
+ 
+.font2 {
+  display:flex;
+  width: 475;
+}
+.inline-box {
+  width: 475;
+}
+.bot {
+  width: 475px;
+  
+}
+ h5{
+ color:#700606;
+}
+}
+
+ 
+ 
+ 
